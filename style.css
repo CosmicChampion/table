@@ -1,0 +1,47 @@
+thead th, tfoot th {
+    font-family: 'Rock Salt', cursive;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: right;
+}
+thead, tfoot {
+
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 3px solid black;
+}
+tbody tr:nth-child(odd) {
+    background-color: grey;
+}
+
+tbody tr:nth-child(even) {
+    background-color: darkgrey;
+}
+table {
+    background-color: black;
+}
+
+caption{
+    font-style: italic;
+    caption-side: bottom;
+    padding: 5px;
+    color: #4b4646;
+    letter-spacing: 1px;
+}
